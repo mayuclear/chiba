@@ -16,7 +16,7 @@
 <!-- スタッフ確認用（?staff=1）：計測を動かさない。千葉はGoogleリスティング広告なので、Metaピクセルは入れない -->
 <script>window.MC_STAFF=/[?&]staff=1/.test(location.search)||/^(localhost|127\.0\.0\.1)$/.test(location.hostname);
 window.fbq=function(){}; /* 予約ボタンのクリック処理（原宿と共通）が呼んでも何もしない */
-window.GADS_ID=''; /* Google広告のID（AW-…）が届いたら入れる。空のあいだは何も読み込まない */
+window.GADS_ID='AW-16678477047'; /* Google広告のID（AW-…）が届いたら入れる。空のあいだは何も読み込まない */
 window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments);};
 if(!window.MC_STAFF&&window.GADS_ID){var g=document.createElement('script');g.async=true;g.src='https://www.googletagmanager.com/gtag/js?id='+window.GADS_ID;document.head.appendChild(g);gtag('js',new Date());gtag('config',window.GADS_ID);}
 try{var gc=new URLSearchParams(location.search).get('gclid');if(gc)sessionStorage.setItem('mc_gclid',gc.slice(0,200));}catch(e){}
